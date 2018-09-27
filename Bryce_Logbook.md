@@ -1,8 +1,22 @@
-... The following is a log of the
 
+<p>
+  <img align="left" src="./uofr_logo.PNG" alt="U of R logo" width="39.055%"/>
+  <img align="right" src="./foo.jpg" alt="Our Logo" width="27.5%"/>
+</p>
 
+<br/><br/><br/><br/>
 
-Sept 27, 12-2pm
-In-class presentation & git bookkeeping
+**Authors:** Bryce Drew
 
+####  The following is an individual work log required for the Capstone project.
 
+## September
+Sept 20, 2 hours
+* Project inception 
+
+Sept 21, 1 hour
+* research
+
+ Sept. 27, 2 hours
+* In-class presentation 
+* git book-keeping
