@@ -18,5 +18,9 @@ Sept 21, 1 hour
 * research
 
  Sept. 27, 2 hours
-* In-class presentation 
+* Work on In-class presentation 
 * git book-keeping
+
+Sept. 28, 1 hour
+* In-class presentation
+* more git book-keeping
