@@ -9,11 +9,12 @@ boxingGloveArrow = 4
 
 globalvar showInventory;
 globalvar maxItems;
-
 globalvar maxItemW;
 globalvar maxItemH; 
 
-showInventory = true;
+buffer = 0; 
+
+showInventory = false;
 maxItemH = 3;
 maxItemW = 3;
 maxItems = 9; 
@@ -23,7 +24,7 @@ for(i = 0; i < maxItemW; i++)
 {
 	for(j = 0; j < maxItemH; j++)
 		{
-			global.inventory[i][j] = -1;
+			global.inventory[i,j] = -1;
 		}
 }
 

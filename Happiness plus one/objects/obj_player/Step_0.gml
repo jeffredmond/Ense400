@@ -27,7 +27,20 @@ if(hasControl)
 		hsp = 0;
 	}
 	x = x + hsp; 
-}
+	
+	// vertical collison detection
+	
+	if(place_meeting(x, y+vsp, obj_wall))
+	{
+		while(!place_meeting(x, y+sign(vsp), obj_wall))
+		{
+			y = y + sign(vsp);
+		}
+		vsp = 0; 	
+	}
+	
+	y = y + vsp;
+	}
 	
 else
 {
@@ -39,18 +52,6 @@ else
 
 #endregion
 
-// vertical collison detection
-	
-if(place_meeting(x, y+vsp, obj_wall))
-{
-	while(!place_meeting(x, y+sign(vsp), obj_wall))
-	{
-		y = y + sign(vsp);
-	}
-	vsp = 0; 	
-}
-	
-y = y + vsp;
 
 // animation of objects
 
