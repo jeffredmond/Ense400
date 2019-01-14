@@ -6,8 +6,8 @@
 
 <br/><br/><br/><br/>
 
-**Authors:** Jeff Redmond, Bryce Drew
-# Happiness++
+**Authors:** Jeff Redmond
+# Happiness Plus 1
 
 Documents:
 * [Requirements](./requirements.md)
