@@ -10,7 +10,7 @@
 # Happiness Plus 1
 
 Documents:
-* [Requirements](./requirements.md)
+* [Requirments](./requirments.md)
 
 **About the Project**
 Game description...
