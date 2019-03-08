@@ -4,12 +4,14 @@
     "mvc": "1.1",
     "name": "4741b54d-1412-4d70-8a08-fcba5f0a6f04",
     "children": [
-        "8f4b6bb2-bb82-449f-b636-b29c7cac00a7",
-        "34f795f4-d89b-4548-9a08-d7b4acd38952",
-        "445018c1-e5d1-4567-a8e5-e09ff040d331",
-        "59891de5-bc05-44b4-a70d-26e3ee93713b",
-        "9837a11c-0203-4fe2-8a66-5dd1224c6407",
-        "30d0a736-dfc5-46d6-9716-1ccd51ef2572"
+        "f7132c89-7c29-4f32-8a2d-287d549aaecf",
+        "cc0d458c-3b52-4306-9c5e-2461071c78d9",
+        "9f1c6786-c2f9-433c-b309-a47b85a5a7f8",
+        "01c18522-2bc9-4775-aa80-995a226e8fd3",
+        "1c529900-ff0b-4a45-adc2-1cb170069176",
+        "74dc38c1-f9dd-4f35-bf76-eb5f8fd39a45",
+        "b5576a78-409b-473e-92b7-f5b037051ee2",
+        "309d19ca-ffb6-4e0f-b48a-0f7ce5d1adae"
     ],
     "filterType": "GMSprite",
     "folderName": "characters",

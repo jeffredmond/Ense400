@@ -10,5 +10,6 @@ draw_roundrect_ext(x-halfw-border, y-h-(border*2), x+halfw+border,y,15,15,false)
 
 //drawing text
 DrawSetText(c_white,font_sign, fa_center,fa_top); 
-
 draw_text(x,y-h-border,text_current); 
+draw_set_halign(fa_left);
+ 

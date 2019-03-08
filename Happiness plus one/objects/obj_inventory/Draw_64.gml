@@ -225,6 +225,7 @@ if(start_crafting){
 			*/
 			
 			tmp_inv_spot = min(ds_inventory_crafting[# 1, 0], ds_inventory_crafting[# 1, 1]); 
+			
 			//need to get rid of the objects that are in the iventory screen. 
 			ds_inventory[# 0,ds_inventory_crafting[# 1,0]] = 0;
 			ds_inventory[# 1,ds_inventory_crafting[# 1,0]] = 0;

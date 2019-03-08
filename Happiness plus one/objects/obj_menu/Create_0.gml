@@ -2,6 +2,7 @@ global.pause		= false;
 global.view_width	= camera_get_view_width(view_camera[0]);	
 global.view_height	= camera_get_view_height(view_camera[0]);
 
+
 global.key_revert	= ord("X");
 global.key_enter	= vk_enter;
 global.key_left		= vk_left;
@@ -34,13 +35,13 @@ enum menu_element_type {
 
 //create the menu page 
 
-ds_menu_main	 = CreateMenuPage(
+ds_menu_main		= CreateMenuPage(
 	["RESUME",			menu_element_type.script_runner,		resume_game],
 	["SETTINGS",		menu_element_type.page_transfer,		menu_page.settings],
 	["EXIT",			menu_element_type.script_runner,		exit_game]
 );
 
-ds_menu_settings		 = CreateMenuPage(
+ds_menu_settings	= CreateMenuPage(
 	["AUDIO",			menu_element_type.page_transfer,		menu_page.audio],
 	["GRAPHICS",		menu_element_type.page_transfer,		menu_page.graphics],
 	["DIFFICULTY",		menu_element_type.page_transfer,		menu_page.difficulty],
@@ -60,7 +61,7 @@ ds_menu_difficulty	= CreateMenuPage(
 	["BACK",			menu_element_type.page_transfer,		menu_page.settings]
 ); 
 
-ds_menu_graphics		= CreateMenuPage(
+ds_menu_graphics	= CreateMenuPage(
 	["RESOLUTION",		menu_element_type.shift,				change_resolution,		0,		["1024 X 768", "768 X 432", "1152 x 648", "1536 x 874", "1920 x 1080"]],
 	["WINDOW MODE",		menu_element_type.toggle,				change_window_mode,		1,		["FULLSCREEN", "WINDOWED"]],
 	["BACK",			menu_element_type.page_transfer,		menu_page.settings]

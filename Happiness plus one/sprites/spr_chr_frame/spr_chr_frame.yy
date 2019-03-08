@@ -6,9 +6,9 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
+    "bbox_bottom": 95,
     "bbox_left": 0,
-    "bbox_right": 63,
+    "bbox_right": 95,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -38,23 +38,23 @@
             ]
         },
         {
-            "id": "ca0f4046-9cb4-4cb3-9095-8392358c1354",
+            "id": "375e1a5a-5096-48bb-92f7-c2c45958093f",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "cd7a490e-b3cf-49cb-9570-95d234329735",
             "compositeImage": {
-                "id": "709a4aef-11ad-46f8-a2fd-78fe3816e264",
+                "id": "0b9a222a-e611-41a0-a57d-72a9bcfc86d3",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "ca0f4046-9cb4-4cb3-9095-8392358c1354",
+                "FrameId": "375e1a5a-5096-48bb-92f7-c2c45958093f",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "e015620d-51b7-4be5-9104-295574d15325",
+                    "id": "592f3a98-79af-443c-a827-6f38cd16429e",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "ca0f4046-9cb4-4cb3-9095-8392358c1354",
+                    "FrameId": "375e1a5a-5096-48bb-92f7-c2c45958093f",
                     "LayerId": "b8df2d22-8add-4de1-bd4d-2c569fce7ce9"
                 }
             ]
@@ -62,7 +62,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 64,
+    "height": 96,
     "layers": [
         {
             "id": "b8df2d22-8add-4de1-bd4d-2c569fce7ce9",
@@ -77,7 +77,7 @@
         }
     ],
     "origin": 0,
-    "originLocked": false,
+    "originLocked": true,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
@@ -86,7 +86,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 64,
+    "width": 96,
     "xorig": 0,
     "yorig": 0
 }
