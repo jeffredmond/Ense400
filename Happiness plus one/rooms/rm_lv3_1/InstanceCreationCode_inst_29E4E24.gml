@@ -1,0 +1,1 @@
+nextroom = rm_lv3_house2;

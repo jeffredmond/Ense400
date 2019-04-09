@@ -1,0 +1,1 @@
+nextroom = rm_lv5_garage1; 

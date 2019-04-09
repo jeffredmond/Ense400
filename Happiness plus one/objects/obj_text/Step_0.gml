@@ -2,9 +2,6 @@
 // You can write your code in this editor
 
 
-
-
-
 letters += spd;
 text_current = string_copy(text, 1, floor(letters));
 
@@ -16,4 +13,5 @@ if((letters >= length) && keyboard_check_pressed(vk_anykey))
 {
 	instance_destroy();
 	with(obj_camera) follow = obj_player;
+	hasControl = true; 
 }
