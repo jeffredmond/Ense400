@@ -3,6 +3,8 @@ portrait		= spr_chr_portrait;
 frame			= spr_chr_frame;
 box				= spr_textbox; 
 
+timer			=0; 
+
 portrait_width	= sprite_get_width(portrait);
 portrait_height	= sprite_get_height(portrait);
 frame_width		= sprite_get_width(frame);
@@ -40,7 +42,7 @@ text_x			= box_x + x_buffer ;
 text_y			= box_y + y_buffer
 name_x			= box_x + x_buffer;
 name_y			= text_y; 
-text_max_width	= box_width - (2*x_buffer) - name_width; 
+text_max_width	= box_width - (4*x_buffer) - name_width; 
 
 text_col		= c_white; 
 name_text_col	= c_white;

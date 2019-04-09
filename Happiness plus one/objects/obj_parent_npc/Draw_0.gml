@@ -1,4 +1,7 @@
-	
+
+if(global.NPCTransforming) exit;
+if(room != des_room) exit; 
+
 	//draw_self(); 
 var animation_length	= 9;
 var cell_size			= 64; 

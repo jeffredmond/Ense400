@@ -36,3 +36,12 @@ var yy = 0; repeat(ds_height){
 draw_set_valign(fa_top); 
 draw_set_halign(fa_left);
 	
+if(rmEnter){
+	EnterfadeAlpha -= EnterfadeAlphaInc; 
+	draw_set_alpha(EnterfadeAlpha);
+	draw_rectangle_color(0-whatisgoingonbuffer, 0, guiWidth+whatisgoingonbuffer, guiHeight, c_black, c_black, c_black,c_black, false); 
+	draw_set_alpha(1);
+	if(EnterfadeAlpha <= 0){
+		rmEnter = false;
+	}
+}

@@ -14,6 +14,7 @@ if(light_cycle_done == true) {
 input_up_p		= keyboard_check_pressed(global.key_up);
 input_down_p	= keyboard_check_pressed(global.key_down);
 input_enter_p	= keyboard_check_pressed(global.key_enter); 
+input_back      = keyboard_check_pressed(global.key_backspace); 
 
 var ds_grid = titleScreen_pages[page], ds_height = ds_grid_height(ds_grid);
 
@@ -33,6 +34,10 @@ if(input_enter_p){
 			inputting = !inputting;
 			break; 
 	}
-	//can put some audio here maybe insert a sound when navigating through the options and then play a sound when the player pushes enter. 
+}	
+if(input_back){
+	room_goto_previous(); 	
 }
+	//can put some audio here maybe insert a sound when navigating through the options and then play a sound when the player pushes enter. 
+
 

@@ -1,0 +1,1 @@
+newroom = rm_lv6_1; 

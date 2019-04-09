@@ -2,7 +2,7 @@
 
 //the player name
 	
-	global.player_name = "TEST TEST TEST"
+	global.player_name = "";
 
 // camera and display variables 
 view_width	= camera_get_view_width(view_camera[0]);	
@@ -37,13 +37,26 @@ str_uppr		= 65;
 end_uppr		= 90;
 ascii_spc		= 32;
 
-cur_selected	= 24; 
+cur_selected	= 0; 
 ds_key_size		= keyboard_height * keyboard_width; 
 total_keys		= 32; 
 
 uppr_lwr		= 26; 
 AccName			= 27; 
 Back			= 28; 
+
+//cutscene after name_accepted 
+
+name_accepted			= false;
+fade_rate				= 0.008; 
+message_time			= 2 * 30; 
+message_curr			= 0; 
+fade_in					= 0;
+fade_out				= 1;
+current_fade[fade_in]	= 0;
+current_fade[fade_out]	= 1; 
+some_god_damn_varname	= 0; 
+message					= "Your story begins deep below the ice \n Use the <Z> button to interact with the world"
 
 
 ////////////////////////////////////////////////////////////////////////////

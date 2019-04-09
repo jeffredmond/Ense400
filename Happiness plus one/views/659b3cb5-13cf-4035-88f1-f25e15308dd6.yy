@@ -6,7 +6,8 @@
     "children": [
         "3b4ab4a0-250d-4171-90bd-38fdd6d7cdc7",
         "f6b8e791-eda5-4117-99a7-49c2b49f6498",
-        "f95c7d7d-ee9c-4451-b48f-bbbf3acbe6ad"
+        "f95c7d7d-ee9c-4451-b48f-bbbf3acbe6ad",
+        "9baa2ef4-bf07-4741-a2a6-3832b404299e"
     ],
     "filterType": "GMSprite",
     "folderName": "TitleScreen",

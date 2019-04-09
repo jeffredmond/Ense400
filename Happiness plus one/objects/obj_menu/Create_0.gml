@@ -4,7 +4,7 @@ global.view_height	= camera_get_view_height(view_camera[0]);
 
 
 global.key_revert	= ord("X");
-global.key_enter	= vk_enter;
+global.key_enter	= ord("Z");
 global.key_left		= vk_left;
 global.key_right	= vk_right;
 global.key_up		= vk_up;
@@ -21,6 +21,8 @@ enum menu_page {
 	audio,
 	difficulty,
 	graphics,
+	load,
+	save,
 	height
 }
 
@@ -37,6 +39,8 @@ enum menu_element_type {
 
 ds_menu_main		= CreateMenuPage(
 	["RESUME",			menu_element_type.script_runner,		resume_game],
+	["SAVE",			menu_element_type.script_runner,		save_game],
+	["LOAD",			menu_element_type.script_runner,		load_game],
 	["SETTINGS",		menu_element_type.page_transfer,		menu_page.settings],
 	["EXIT",			menu_element_type.script_runner,		exit_game]
 );
@@ -82,5 +86,3 @@ inputting = false;
 // idealy you would want this in a controller object, but for testing purposes i will do this in the menu object
 // i need to do this because i have create a new audio group in tools / audio groups 
 
-audio_group_load(audiogroup_music);
-audio_group_load(audiogroup_soundEffects); 

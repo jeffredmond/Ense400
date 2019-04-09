@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(global.endLevelAnimation) exit; 
 
 x1 = camera_get_view_x(view_xport[0]);
 x2 = camera_get_view_width(view_xport[0]);	
@@ -11,11 +12,14 @@ var animation_length	= 9;
 var cell_size			= 64; 
 var animation_speed		= 12;  
 
-if(moveLR < 0)		y_frame = 1;  
-else if(moveLR > 0) y_frame = 2; 
-else if(moveUD < 0) y_frame = 3;
-else if(moveUD > 0) y_frame = 0; 
-else				x_frame = 0; 
+
+switch(facing){
+	case dir.left	:	y_frame = 1; break;
+	case dir.right	:	y_frame = 2; break;
+	case dir.up		:	y_frame = 3; break;
+	case dir.down	:	y_frame = 0; break;
+	case -1			:	x_frame = 0; break; 
+}
 
 var xx = x - x_offset;
 var yy = y - y_offset; 
@@ -26,6 +30,7 @@ if(x_frame + (animation_speed/30) < animation_length){
 } else {
 	x_frame = 0; 
 }
+if(global.hasControl == false)	x_frame = 0; 
 
 //draw character base
 draw_sprite_part(base, 0, floor(x_frame)*cell_size, y_frame * cell_size, cell_size, cell_size, xx,yy); 

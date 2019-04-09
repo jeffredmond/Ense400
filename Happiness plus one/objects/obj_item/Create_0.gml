@@ -1,7 +1,8 @@
 
-
 // so if i have anyting to do with the depth controlling object i will need to have 
 // event_inherited(); here 
+event_inherited();
+
 
 cell_size			= 64; 
 item_spr			= spr_inventory_items;
@@ -14,5 +15,9 @@ y_frame				= 0;
 
 x_offset			= cell_size/2;
 y_offset			= cell_size*(2/3); 
+
+c					= c_white; 
+xscale				= 0.5;
+yscale				= 0.5;
 
 text 				= "You picked up a "; 

@@ -8,7 +8,7 @@ input_up_p		= keyboard_check_pressed(global.key_up);
 input_down_p	= keyboard_check_pressed(global.key_down);
 input_left_p	= keyboard_check_pressed(global.key_left);
 input_right_p	= keyboard_check_pressed(global.key_right);
-input_enter_p	= keyboard_check_pressed(global.key_enter); 
+input_enter_p	= keyboard_check_pressed(ord("Z")); 
 input_backsp_p  = keyboard_check_pressed(global.key_backspace); 
 
 

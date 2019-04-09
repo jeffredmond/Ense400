@@ -9,7 +9,9 @@
         "cc46a46a-b92f-4926-8c57-f53a02de5fbf",
         "014f3217-50d1-479c-bb34-5092281f7360",
         "0ae8b2df-c7f3-48ab-839d-38df759a0702",
-        "ce58c9d5-a0a8-4611-b146-a121e2045b42"
+        "ce58c9d5-a0a8-4611-b146-a121e2045b42",
+        "760db4a2-b297-4148-9aba-dbeaeae9622f",
+        "995984a6-9322-4cb2-a7c3-ea6bd7736d02"
     ],
     "filterType": "GMSprite",
     "folderName": "extra_spr",

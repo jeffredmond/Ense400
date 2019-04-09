@@ -4,8 +4,4 @@ if(item_num != -1){
 	y_frame				= item_num div(spr_width/cell_size);
 }
 
-
-draw_sprite_part(
-item_spr, 0, cell_size*x_frame, y_frame * cell_size,
-cell_size, cell_size, x, y
-); 
+draw_sprite_part_ext(item_spr, 0, cell_size*x_frame, y_frame * cell_size,cell_size, cell_size, x, y, xscale, yscale, c, 1); 

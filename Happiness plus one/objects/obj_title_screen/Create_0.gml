@@ -19,24 +19,15 @@ li_yscale			= 1;
 li_x				= 0 + li_x_buffer;
 li_y				= 0 + li_y_buffer;
 
-// this is important for loading the save file names from memory 
-
-// step one: get all the names of the save files: if they exist store them into the save screen 
-	// check it out name = filename_name(file_find_first("C:\Games\*.doc", 0));
-	// Windows has all files in the %localappdata%\<Game Name> directory 
-	// (on Windows 7 this is the /Users/<User Name>/AppData/Local/<Game Name> directory).
-	
-// step 2 
-	// if a person decides to load a saved game then the name of the save file will be 
-	// passed to the save script. 
-	
-// 
-
-
-
+//
+rmEnter				= true;
+guiWidth			= display_get_gui_width();
+guiHeight			= display_get_gui_height();
+EnterfadeAlpha		= 1; 
+EnterfadeAlphaInc	= 0.08;
+whatisgoingonbuffer = 64; 
 
 //options constants 
-
 
 global.view_width	= camera_get_view_width(view_camera[0]);	
 global.view_height	= camera_get_view_height(view_camera[0]);

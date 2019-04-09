@@ -2,6 +2,8 @@
 ///@arg text
 ///@arg speakers
 
+draw_set_halign(fa_left); 
+draw_set_valign(fa_top); 
 var textbox = instance_create_layer(0,0,"text", obj_textbox);
 
 with(textbox){
@@ -10,6 +12,7 @@ with(textbox){
 	
 	var len = array_length_1d(text);
 	var i = 0; repeat(len){
+		spkrs[i]		= speakers[i];	
 		names[i]		= speakers[i].name;
 		portraits[i]	= speakers[i].portrait_index;
 		voices[i]		= speakers[i].voice; 

@@ -30,9 +30,10 @@ if(point_in_rectangle(px, py, x-r, y-r, x+r, y+r) && keyboard_check_pressed(ord(
 		}
 		
 		if(picked_up){
-			with (obj_inventory){
-			other.text += ds_inventory_item_description[# 0, in];
-			}
+			//with (obj_inventory){
+			//other.text += ds_inventory_item_description[# 0, in];
+			//}
+			text += Get_Inventory_Description(in);
 			if(!instance_exists(obj_text)){
 				with (instance_create_layer(x,y-64,layer,obj_text)){
 					text = other.text; 

@@ -60,7 +60,18 @@ if(ochange != 0){
 }	
 if(input_enter_p){
 	switch(ds_grid[# 1, menu_option[page]]){
-		case menu_element_type.script_runner: script_execute(ds_grid[# 2, menu_option[page]]); break;
+		case menu_element_type.script_runner: 
+		{
+		var scr = ds_grid[# 2, menu_option[page]];	
+		script_execute(scr); 
+		if( scr == save_game || scr == load_game){
+			global.hasControl = !global.hasControl; 
+			global.pause = !global.pause; 
+		}
+			
+		break;
+		
+		}
 		case menu_element_type.page_transfer: page = ds_grid[# 2, menu_option[page]]; break; 
 		case menu_element_type.slider: 
 		case menu_element_type.shift: 
